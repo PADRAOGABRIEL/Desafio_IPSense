@@ -53,14 +53,27 @@ A análise dos dados fornecidos sobre a distância mínima nos últimos 12 meses
 **Importante para ver a proporção de asteroides que trazem algum perigo à Terra, para as entidades possam tomar algum tipo de prevenção contra os perigosos.**
 
 ### Resposta da IA Generativa:
-Os dados apresentados indicam a quantidade de asteroides classificados como "perigosos" e "não perigosos". Do total, 6800 asteroides foram considerados não perigosos, enquanto 460 foram classificados como perigosos. Para entender melhor esses números, podemos calcular a proporção de cada categoria em relação ao total de asteroides.
+Os dados fornecidos mostram a quantidade de asteroides classificados como perigosos e não perigosos. Podemos fazer uma análise simples baseada nesses números:
 
-O total de asteroides é 6800 + 460 = 7260.
+1. **Proporção de Asteroides Perigosos versus Não Perigosos:**
+   - Total de asteroides não perigosos: 6800
+   - Total de asteroides perigosos: 460
+   - Proporção de asteroides perigosos: \( \frac{460}{460 + 6800} \approx 0,0636 \) ou 6,36%
+   - Proporção de asteroides não perigosos: \( \frac{6800}{460 + 6800} \approx 0,9364 \) ou 93,64%
 
-- Proporção de asteroides não perigosos: \( \frac{6800}{7260} \approx 0.936 \) ou 93.6%.
-- Proporção de asteroides perigosos: \( \frac{460}{7260} \approx 0.063 \) ou 6.3%.
+2. **Interpretação dos Dados:**
+   - A vastíssima maioria dos asteroides são classificados como não perigosos. Aproximadamente 93,64% dos asteroides observados nessa amostra não oferecem ameaça significativa à Terra.
+   - Apenas 6,36% dos asteroides são considerados perigosos, significando que há uma menor, mas ainda relevante, quantidade de asteroides que requer monitoramento e potencial mitigação para evitar possíveis impactos.
 
-Esses números sugerem que a grande maioria dos asteroides observados, cerca de 93.6%, não apresentam perigo significativo, enquanto uma menor, mas ainda relevante, fração de 6.3% é considerada perigosa. Esses dados são importantes para direcionar os esforços de monitoramento e mitigação de riscos astronômicos, ajudando a priorizar quais asteroides devem ser acompanhados mais de perto e quais estratégias podem ser desenvolvidas para lidar com potenciais ameaças à Terra.
+3. **Considerações de Contexto:**
+   - Asteroides são classificados como "potencialmente perigosos" se passam numa distância relativamente próxima à Terra e têm um tamanho suficiente para causar danos significativos em caso de impacto.
+   - A pequena proporção de asteroides perigosos não diminui a importância de vigilância astronômica e programas de defesa planetária, visto que o impacto de um único asteroide perigoso pode ter consequências severas.
+
+4. **Importância do Monitoramento:**
+   - Os programas de monitoramento de asteroides visam detectar e rastrear esses corpos celestes para avaliar riscos e desenvolver métodos eficazes de defesa.
+   - Desenvolver tecnologias para desviar ou mitigar asteroides perigosos pode ser uma área crucial de pesquisa e desenvolvimento.
+
+A análise mostra que, embora a maioria dos asteroides não seja perigosa, a identificação e o acompanhamento dos que são representam uma área importante para a proteção do planeta. Adicionalmente, os dados destacam a importância contínua de investimentos em pesquisas astronômicas e tecnologias de defesa planetária.
 
 ---
 
@@ -139,5 +152,5 @@ Essa análise apresenta um vislumbre do quão dinâmica a população de asteroi
 
 ---
 
-### Problemas Observados
+### Dificuldades Observadas
 A principal dificuldade encontrada foi com relação a API da Nasa, que permitia extrair apenas um período de 7 dias. Com isso foi necessário criar uma outra forma de extrair para conseguir os últimos 365 dias.
