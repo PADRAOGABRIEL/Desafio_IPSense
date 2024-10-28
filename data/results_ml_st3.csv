@@ -1,0 +1,100 @@
+,Features,Algoritmo,Acurácia,Precisão,Recall,F1-Score,AUC-ROC,Método
+0,feat1,DecisionTreeClassifier(random_state=0),0.844,0.277,0.902,0.423,0.871,US - 0.5
+1,feat1,RandomForestClassifier(random_state=0),0.829,0.268,0.978,0.421,0.899,US - 0.5
+2,feat1,"LogisticRegression(max_iter=200, random_state=0)",0.83,0.251,0.848,0.387,0.838,US - 0.5
+3,feat1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, random_state=0, ...)",0.827,0.263,0.957,0.412,0.887,US - 0.5
+4,feat1,DecisionTreeClassifier(random_state=0),0.845,0.271,0.859,0.413,0.851,US - 0.6
+5,feat1,RandomForestClassifier(random_state=0),0.847,0.289,0.967,0.445,0.903,US - 0.6
+6,feat1,"LogisticRegression(max_iter=200, random_state=0)",0.853,0.252,0.674,0.367,0.769,US - 0.6
+7,feat1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, random_state=0, ...)",0.849,0.283,0.902,0.431,0.874,US - 0.6
+8,feat1,DecisionTreeClassifier(random_state=0),0.865,0.278,0.707,0.399,0.791,US - 0.7
+9,feat1,RandomForestClassifier(random_state=0),0.852,0.284,0.88,0.43,0.865,US - 0.7
+10,feat1,"LogisticRegression(max_iter=200, random_state=0)",0.871,0.235,0.457,0.31,0.678,US - 0.7
+11,feat1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, random_state=0, ...)",0.866,0.291,0.772,0.423,0.822,US - 0.7
+12,feat1,DecisionTreeClassifier(random_state=0),0.9,0.333,0.576,0.422,0.749,ADASYN - 0.5
+13,feat1,RandomForestClassifier(random_state=0),0.893,0.326,0.652,0.435,0.78,ADASYN - 0.5
+14,feat1,"LogisticRegression(max_iter=200, random_state=0)",0.866,0.223,0.446,0.297,0.67,ADASYN - 0.5
+15,feat1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, random_state=0, ...)",0.904,0.355,0.641,0.457,0.781,ADASYN - 0.5
+16,feat1,DecisionTreeClassifier(random_state=0),0.899,0.304,0.457,0.365,0.693,ADASYN - 0.6
+17,feat1,RandomForestClassifier(random_state=0),0.897,0.352,0.739,0.477,0.824,ADASYN - 0.6
+18,feat1,"LogisticRegression(max_iter=200, random_state=0)",0.857,0.229,0.533,0.32,0.706,ADASYN - 0.6
+19,feat1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, random_state=0, ...)",0.897,0.323,0.576,0.414,0.747,ADASYN - 0.6
+20,feat1,DecisionTreeClassifier(random_state=0),0.902,0.344,0.609,0.439,0.765,ADASYN - 0.7
+21,feat1,RandomForestClassifier(random_state=0),0.893,0.348,0.793,0.483,0.846,ADASYN - 0.7
+22,feat1,"LogisticRegression(max_iter=200, random_state=0)",0.851,0.243,0.641,0.352,0.753,ADASYN - 0.7
+23,feat1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, random_state=0, ...)",0.894,0.324,0.62,0.425,0.766,ADASYN - 0.7
+24,feat1,"DecisionTreeClassifier(class_weight='balanced', random_state=0)",0.925,0.395,0.348,0.37,0.656,class_weight
+25,feat1,"RandomForestClassifier(class_weight='balanced', random_state=0)",0.943,0.68,0.185,0.291,0.589,class_weight
+26,feat1,"LogisticRegression(class_weight='balanced', max_iter=200, random_state=0)",0.825,0.23,0.75,0.352,0.79,class_weight
+27,feat1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              class_weight='balanced', colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, device=None,
+              early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, gamma=None,
+              grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, ...)",0.937,0.5,0.217,0.303,0.601,class_weight
