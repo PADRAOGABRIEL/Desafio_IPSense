@@ -1,6 +1,9 @@
 # Análise de Dados de Asteróides Próximos à Terra (API Nasa)
 
-Este trabalho visa analisar os dados de asteroides que estiveram próximos à Terra no último ano com gráficos que abordam diferentes partes dos dados, tentando identificar padrões e insights relevantes.
+Este trabalho visa analisar os dados de asteroides que estiveram próximos à Terra no último ano com gráficos que abordam diferentes partes dos dados, tentando identificar padrões e insights relevantes. 
+<br>
+
+**Atenção**: Cada vez que executamos o código as análises da IA Generativa mudam, deixei aqui as análises que achei mais interessantes (pode estar diferente do notebook).
 
 ## Primeira Análise - Número de Asteróides que passaram próximo da Terra
 
@@ -8,7 +11,7 @@ Este trabalho visa analisar os dados de asteroides que estiveram próximos à Te
 
 **Análise:** Esse gráfico é importante para ver os períodos que tiveram maior índices de asteroides próximos à Terra, já que podem haver alguns padrões. Talvez seria interessante comparar com alguns anos passados.
 
-### Resposta da IA Generativa:
+### Análise da IA Generativa:
 Os dados fornecidos mostram uma variação no número de asteroides próximos da Terra ao longo de um período de um ano, de outubro de 2023 a outubro de 2024. Algumas observações e possíveis interpretações incluem:
 
 1. **Flutuações Mensais:** O número de asteroides próximos parece flutuar de mês para mês, sem um padrão aparente de crescimento ou redução contínua. Isso poderia indicar variações naturais na trajetória e detecção dos asteroides, possivelmente influenciadas por fatores como a posição da Terra em sua órbita ou eventos astronômicos específicos.
@@ -31,7 +34,7 @@ Em resumo, enquanto não há uma tendência clara ou explicação definitiva par
 
 **Minha Análise:** Importante para poder visualizar possíveis momentos do ano que tivemos uma menor distância média dos asteroides da Terra.
 
-### Resposta da IA Generativa:
+### Análise da IA Generativa:
 A análise dos dados fornecidos sobre a distância mínima nos últimos 12 meses revela algumas tendências e padrões interessantes. Vamos examinar os principais pontos:
 
 1. **Tendência Geral:** Observa-se um aumento geral na distância mínima ao longo do período de 12 meses. Em outubro de 2023, a distância registrada foi de aproximadamente 28,76 milhões de km, enquanto em setembro de 2024, essa distância havia aumentado para aproximadamente 29,34 milhões de km.
@@ -52,7 +55,7 @@ A análise dos dados fornecidos sobre a distância mínima nos últimos 12 meses
 
 **Importante para ver a proporção de asteroides que trazem algum perigo à Terra, para as entidades possam tomar algum tipo de prevenção contra os perigosos.**
 
-### Resposta da IA Generativa:
+### Análise da IA Generativa:
 Os dados fornecidos mostram a quantidade de asteroides classificados como perigosos e não perigosos. Podemos fazer uma análise simples baseada nesses números:
 
 1. **Proporção de Asteroides Perigosos versus Não Perigosos:**
@@ -85,7 +88,7 @@ A análise mostra que, embora a maioria dos asteroides não seja perigosa, a ide
 Assim, temos uma noção de quanto estrago o asteroide poderia gerar se chegasse até a Terra
 - Nesse caso há um certo padrão nessa distribuição, os asteroides estão mais agrupados no canto inferior esquerdo, denotando que os asteroides que chegam mais próximos à Terra geralmente são menores
 
-### Resposta da IA Generativa:
+### Análise da IA Generativa:
 Os dados fornecidos sugerem duas séries de medidas relacionadas aos asteroides: uma informa os diâmetros médios estimados (em, presumivelmente, metros) de diversos asteroides e a outra indica a distância mínima estimada (novamente, presumivelmente em metros ou alguma outra unidade padrão) de cada asteroide à Terra.
 
 Aqui estão algumas observações e considerações sobre os dados:
@@ -112,7 +115,7 @@ Em suma, esses dados são fundamentais para a segurança planetária e planejame
 
 **Importante para observarmos o tamanho dos asteroides que passam perto da Terra, pois assim podemos ter uma noção de estrago que poderiam causar.**
 
-### Resposta da IA Generativa:
+### Análise da IA Generativa:
 Para comentar sobre a média e distribuição das estimativas dos asteroides fornecidas, primeiro devemos calcular a média. Para os dados apresentados, o diâmetro médio dos asteroides varia de 0,75 metros a 2.100 metros, mostrando uma ampla gama de tamanhos.
 
 Aqui estão algumas considerações:
@@ -133,7 +136,7 @@ Aqui estão algumas considerações:
 
 **Visualizando a distribuição de velocidade dos asteroides**
 
-### Resposta da IA Generativa:
+### Análise da IA Generativa:
 O conjunto de velocidades dos asteroides que você forneceu varia bastante, indo desde valores tão baixos quanto 4.966,978 km/h até valores tão altos quanto 113.072,731 km/h. 
 
 Algumas observações podem ser feitas com base nesses dados:
